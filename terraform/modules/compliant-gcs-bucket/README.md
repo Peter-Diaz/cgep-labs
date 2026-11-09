@@ -1,0 +1,1 @@
+This Terraform module provisions a Google Cloud Storage bucket with a customer-managed Cloud KMS key (SC-12), encryption at rest and scheduled key rotation (SC-13 and SC-28), a configurable retention policy with a 365-day minimum for production (AU-11), required resource labels (CM-6), and uniform bucket-level access with public access prevention (AC-3).
